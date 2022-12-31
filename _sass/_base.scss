@@ -44,6 +44,12 @@ p {
     // background-color: $theme-dark;
 }
 
+.shadow {
+  display: inline;
+  background: $theme-dark;
+  box-shadow: .3em 0 0 $theme-dark, -.3em 0 0 $theme-dark;
+}
+
 .bg-primary {
     background-color: $theme-primary;
 }
