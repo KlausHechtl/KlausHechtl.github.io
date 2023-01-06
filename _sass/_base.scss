@@ -47,7 +47,7 @@ p {
 .klaus {
   @media (min-width: 768px) {
       max-width: 80% !important;
-      
+
   }
   @media (max-width: 768px) {
       max-width: 100% !important;
@@ -90,7 +90,13 @@ p {
 }
 
 section {
-    padding: 100px 0;
+
+    @media (min-width: 768px) {
+        padding: 100px 0;
+    }
+    @media (max-width: 768px) {
+      padding: 0px 0;
+    }
 }
 
 aside {
