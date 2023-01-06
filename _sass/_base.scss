@@ -49,8 +49,13 @@ p {
       max-width: 80% !important;
 
   }
+  @media (min-width: 995px) {
+      max-width: 600px !important;
+
+  }
   @media (max-width: 768px) {
       max-width: 100% !important;
+      margin-top: -100px !important;
   }
 }
 
@@ -90,13 +95,13 @@ p {
 }
 
 section {
-
-    @media (min-width: 768px) {
-        padding: 100px 0;
-    }
-    @media (max-width: 768px) {
-      padding: 0px 0;
-    }
+    padding: 100px 0;
+    // @media (min-width: 768px) {
+    //     padding: 100px 0;
+    // }
+    // @media (max-width: 768px) {
+    //   padding: 0px 0;
+    // }
 }
 
 aside {
