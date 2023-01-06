@@ -16,3 +16,6 @@ github_username:
 
 # Build settings
 markdown: kramdown
+
+# Google Analytics
+google_analytics: "G-GNTK42B05E"
