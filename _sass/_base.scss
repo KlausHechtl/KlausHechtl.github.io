@@ -46,16 +46,17 @@ p {
 
 .klaus {
   @media (min-width: 768px) {
-      max-width: 80% !important;
+      max-width: 70% !important;
 
   }
   @media (min-width: 995px) {
-      max-width: 600px !important;
+      max-width: 550px !important;
 
   }
   @media (max-width: 768px) {
       max-width: 100% !important;
-      margin-top: -100px !important;
+      // margin-top: -100px !important;
+
   }
 }
 
