@@ -1,9 +1,12 @@
+html {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+
 html,
 body {
     height: 100%;
     width: 100%;
-    max-width: 100% !important;
-    overflow-x: hidden !important;
 }
 
 
@@ -72,8 +75,8 @@ p {
 }
 
 .mobile-break {
-  @media (min-width: 600px)  {
-       .mobile-break { display: none; }
+  @media (min-width: 768px)  {
+       display: none;
    }
 }
 
